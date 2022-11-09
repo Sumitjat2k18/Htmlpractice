@@ -1,0 +1,67 @@
+#heading{
+    color:rgb(34, 12, 12);
+   /* background: rgb(255, 0, 43);*/
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-size: 50px; */
+    text-align: center;
+}
+.header{
+    /* text-align: center; */
+    background-color: orange;
+    padding: 30px;
+    margin:30px;
+    /* border:5px solid green;
+    border-radius:30px; */
+    width: 1000px;;
+    height:200px;
+    /* background-image: url(../coffee.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom ;
+    background-size: cover; */
+    box-shadow: 2px 2px 1px grey;
+    cursor: pointer;
+    overflow: scroll;
+    opacity: 1;
+    display:block;
+}
+p{
+    line-height: 1.5;
+    color: azure;
+}
+ul{
+    list-style-type: square;
+}
+.wrapper{
+   width: 200px; 
+   height: 200px;
+   background: red;
+   margin: 40px;
+   transition: background 6s ease;
+   /* transform: rotate(45deg); */
+   /* transform: translate(300px,500px); */
+}
+/* .inner{
+    width: 150px; 
+    height: 150px;
+    background: red;
+    position: absolute;
+    bottom: 40px; 
+     right: 40px;
+     z-index: 2; */
+  /* }
+  .inner2{
+    width: 150px; 
+    height: 150px;
+    background:green;
+    position: absolute;
+    bottom:40px;
+    right: 40px;
+    z-index:1;
+  } */
+  /* .wrapper:hover{
+    background: blue;
+  } */
+
+  input:focus {
+    border: 3px solid green;
+  }
